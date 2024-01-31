@@ -1141,3 +1141,736 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 
 [2024.01.31-11.57.53:789][  1]Running Python start-up script 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.038826 secs
 [2024.01.31-11.57.54:121][  2]LogD3D12RHI: Cannot end block when stack is empty
+[2024.01.31-11.59.40:563][321]LogDerivedDataCache: C:/Users/saeir/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.034 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 362 files in 671 folders with total size 3 MiB.
+[2024.01.31-12.00.48:591][729]LogSlate: Window 'Content Browser' being destroyed
+[2024.01.31-12.00.50:259][827]LogSlate: Window 'Content Browser' being destroyed
+[2024.01.31-12.00.50:265][827]LogSlate: Window 'Content Browser' being destroyed
+[2024.01.31-12.01.01:963][474]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.01.31-12.01.05:070][634]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_5.3/FeaturePacks/TP_VirtualRealityBP.upack)
+[2024.01.31-12.01.05:092][634]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2024.01.31-12.01.05:099][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Audio/Fire01.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Audio/Fire01.uasset"
+[2024.01.31-12.01.05:104][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Audio/Fire_Cue.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Audio/Fire_Cue.uasset"
+[2024.01.31-12.01.05:110][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Textures/T_Grid.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Textures/T_Grid.uasset"
+[2024.01.31-12.01.05:114][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Maps/VRTemplateMap.umap" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Maps/VRTemplateMap.umap"
+[2024.01.31-12.01.05:139][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Maps/VRTemplateMap_BuiltData.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Maps/VRTemplateMap_BuiltData.uasset"
+[2024.01.31-12.01.05:143][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Blueprints/B_AssetGuideline_VRTemplate.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Blueprints/B_AssetGuideline_VRTemplate.uasset"
+[2024.01.31-12.01.05:148][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Blueprints/Grabbable_SmallCube.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Blueprints/Grabbable_SmallCube.uasset"
+[2024.01.31-12.01.05:153][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Blueprints/GrabComponent.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Blueprints/GrabComponent.uasset"
+[2024.01.31-12.01.05:156][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Blueprints/GrabType.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Blueprints/GrabType.uasset"
+[2024.01.31-12.01.05:163][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Blueprints/Menu.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Blueprints/Menu.uasset"
+[2024.01.31-12.01.05:167][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Blueprints/Pistol.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Blueprints/Pistol.uasset"
+[2024.01.31-12.01.05:173][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Blueprints/Projectile.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Blueprints/Projectile.uasset"
+[2024.01.31-12.01.05:177][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Blueprints/VRGameMode.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Blueprints/VRGameMode.uasset"
+[2024.01.31-12.01.05:183][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Blueprints/VRPawn.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Blueprints/VRPawn.uasset"
+[2024.01.31-12.01.05:188][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Haptics/GrabHapticEffect.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Haptics/GrabHapticEffect.uasset"
+[2024.01.31-12.01.05:194][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Blueprints/VRTeleportVisualizer.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Blueprints/VRTeleportVisualizer.uasset"
+[2024.01.31-12.01.05:198][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Blueprints/WidgetMenu.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Blueprints/WidgetMenu.uasset"
+[2024.01.31-12.01.05:202][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Haptics/PistolFireHapticEffect.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Haptics/PistolFireHapticEffect.uasset"
+[2024.01.31-12.01.05:207][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/B_InputModifier_XAxisPositiveOnly.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/B_InputModifier_XAxisPositiveOnly.uasset"
+[2024.01.31-12.01.05:212][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/IMC_Default.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/IMC_Default.uasset"
+[2024.01.31-12.01.05:216][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/IMC_Hands.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/IMC_Hands.uasset"
+[2024.01.31-12.01.05:222][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/IMC_Menu.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/IMC_Menu.uasset"
+[2024.01.31-12.01.05:226][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/IMC_Weapon.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/IMC_Weapon.uasset"
+[2024.01.31-12.01.05:230][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/IMC_Weapon_Left.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/IMC_Weapon_Left.uasset"
+[2024.01.31-12.01.05:235][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/IMC_Weapon_Right.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/IMC_Weapon_Right.uasset"
+[2024.01.31-12.01.05:240][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/PMI_VRTemplate.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/PMI_VRTemplate.uasset"
+[2024.01.31-12.01.05:244][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Materials/DefaultRibbonMaterial_NoGradient.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Materials/DefaultRibbonMaterial_NoGradient.uasset"
+[2024.01.31-12.01.05:249][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Materials/MI_Grid_Accent.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Materials/MI_Grid_Accent.uasset"
+[2024.01.31-12.01.05:254][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Materials/MI_Grid_Default.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Materials/MI_Grid_Default.uasset"
+[2024.01.31-12.01.05:259][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Materials/MI_Projectile.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Materials/MI_Projectile.uasset"
+[2024.01.31-12.01.05:264][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Materials/M_GridRotation.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Materials/M_GridRotation.uasset"
+[2024.01.31-12.01.05:269][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Materials/M_Projectile.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Materials/M_Projectile.uasset"
+[2024.01.31-12.01.05:274][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Materials/M_TeleportCylinder.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Materials/M_TeleportCylinder.uasset"
+[2024.01.31-12.01.05:280][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Materials/M_TeleportNoise.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Materials/M_TeleportNoise.uasset"
+[2024.01.31-12.01.05:285][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/VFX/NPC_VRTemplate.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/VFX/NPC_VRTemplate.uasset"
+[2024.01.31-12.01.05:291][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/VFX/NS_MenuLaser.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/VFX/NS_MenuLaser.uasset"
+[2024.01.31-12.01.05:296][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/VFX/NS_PlayAreaBounds.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/VFX/NS_PlayAreaBounds.uasset"
+[2024.01.31-12.01.05:301][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/VFX/NS_TeleportRing.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/VFX/NS_TeleportRing.uasset"
+[2024.01.31-12.01.05:306][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/VFX/NS_TeleportTrace.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/VFX/NS_TeleportTrace.uasset"
+[2024.01.31-12.01.05:311][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Materials/M_VRCursor.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Materials/M_VRCursor.uasset"
+[2024.01.31-12.01.05:315][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/B_MannequinsXR.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/B_MannequinsXR.uasset"
+[2024.01.31-12.01.05:319][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Materials/Functions/MF_OccludedPixels.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Materials/Functions/MF_OccludedPixels.uasset"
+[2024.01.31-12.01.05:325][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Materials/M_Mannequin.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Materials/M_Mannequin.uasset"
+[2024.01.31-12.01.05:330][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Animations/A_MannequinsXR_Grasp_Right.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Animations/A_MannequinsXR_Grasp_Right.uasset"
+[2024.01.31-12.01.05:334][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Animations/A_MannequinsXR_Idle_Right.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Animations/A_MannequinsXR_Idle_Right.uasset"
+[2024.01.31-12.01.05:339][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Animations/A_MannequinsXR_IndexCurl_Right.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Animations/A_MannequinsXR_IndexCurl_Right.uasset"
+[2024.01.31-12.01.05:345][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Animations/A_MannequinsXR_Point_Right.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Animations/A_MannequinsXR_Point_Right.uasset"
+[2024.01.31-12.01.05:349][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Animations/A_MannequinsXR_ThumbUp_Right.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Animations/A_MannequinsXR_ThumbUp_Right.uasset"
+[2024.01.31-12.01.05:354][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Animations/MDT_MannequinsXR.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Animations/MDT_MannequinsXR.uasset"
+[2024.01.31-12.01.05:358][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/Actions/IA_Grab_Left.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/Actions/IA_Grab_Left.uasset"
+[2024.01.31-12.01.05:363][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/Actions/IA_Grab_Right.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/Actions/IA_Grab_Right.uasset"
+[2024.01.31-12.01.05:368][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/Actions/IA_Menu_Cursor_Left.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/Actions/IA_Menu_Cursor_Left.uasset"
+[2024.01.31-12.01.05:372][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/Actions/IA_Menu_Cursor_Right.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/Actions/IA_Menu_Cursor_Right.uasset"
+[2024.01.31-12.01.05:376][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/Actions/IA_Menu_Interact_Left.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/Actions/IA_Menu_Interact_Left.uasset"
+[2024.01.31-12.01.05:379][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/Actions/IA_Menu_Interact_Right.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/Actions/IA_Menu_Interact_Right.uasset"
+[2024.01.31-12.01.05:385][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/Actions/IA_Menu_Toggle_Left.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/Actions/IA_Menu_Toggle_Left.uasset"
+[2024.01.31-12.01.05:389][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/Actions/IA_Menu_Toggle_Right.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/Actions/IA_Menu_Toggle_Right.uasset"
+[2024.01.31-12.01.05:393][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/Actions/IA_Move.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/Actions/IA_Move.uasset"
+[2024.01.31-12.01.05:397][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/Actions/IA_Shoot_Left.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/Actions/IA_Shoot_Left.uasset"
+[2024.01.31-12.01.05:402][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/Actions/IA_Shoot_Right.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/Actions/IA_Shoot_Right.uasset"
+[2024.01.31-12.01.05:408][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/Actions/IA_Turn.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/Actions/IA_Turn.uasset"
+[2024.01.31-12.01.05:413][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Meshes/ABP_MannequinsXR.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Meshes/ABP_MannequinsXR.uasset"
+[2024.01.31-12.01.05:420][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Meshes/SKM_MannyXR_left.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Meshes/SKM_MannyXR_left.uasset"
+[2024.01.31-12.01.05:429][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Meshes/SKM_MannyXR_right.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Meshes/SKM_MannyXR_right.uasset"
+[2024.01.31-12.01.05:435][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Meshes/SKM_QuinnXR_left.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Meshes/SKM_QuinnXR_left.uasset"
+[2024.01.31-12.01.05:441][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Meshes/SKM_QuinnXR_right.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Meshes/SKM_QuinnXR_right.uasset"
+[2024.01.31-12.01.05:446][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Meshes/SK_MannequinsXR.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Meshes/SK_MannequinsXR.uasset"
+[2024.01.31-12.01.05:450][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Materials/Functions/CA_Mannequin.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Materials/Functions/CA_Mannequin.uasset"
+[2024.01.31-12.01.05:454][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Materials/Functions/ChromaticCurve.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Materials/Functions/ChromaticCurve.uasset"
+[2024.01.31-12.01.05:459][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Materials/Functions/MF_Diffraction.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Materials/Functions/MF_Diffraction.uasset"
+[2024.01.31-12.01.05:464][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Materials/Functions/MF_logo3layers.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Materials/Functions/MF_logo3layers.uasset"
+[2024.01.31-12.01.05:469][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/Actions/Hands/IA_Hand_Grasp_Left.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/Actions/Hands/IA_Hand_Grasp_Left.uasset"
+[2024.01.31-12.01.05:473][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Materials/Functions/ML_BaseColorFallOff.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Materials/Functions/ML_BaseColorFallOff.uasset"
+[2024.01.31-12.01.05:477][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/Actions/Hands/IA_Hand_Grasp_Right.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/Actions/Hands/IA_Hand_Grasp_Right.uasset"
+[2024.01.31-12.01.05:482][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/Actions/Hands/IA_Hand_IndexCurl_Left.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/Actions/Hands/IA_Hand_IndexCurl_Left.uasset"
+[2024.01.31-12.01.05:486][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/Actions/Hands/IA_Hand_IndexCurl_Right.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/Actions/Hands/IA_Hand_IndexCurl_Right.uasset"
+[2024.01.31-12.01.05:491][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/Actions/Hands/IA_Hand_Point_Left.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/Actions/Hands/IA_Hand_Point_Left.uasset"
+[2024.01.31-12.01.05:495][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/Actions/Hands/IA_Hand_Point_Right.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/Actions/Hands/IA_Hand_Point_Right.uasset"
+[2024.01.31-12.01.05:501][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/Actions/Hands/IA_Hand_ThumbUp_Left.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/Actions/Hands/IA_Hand_ThumbUp_Left.uasset"
+[2024.01.31-12.01.05:506][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VRTemplate/Input/Actions/Hands/IA_Hand_ThumbUp_Right.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Input/Actions/Hands/IA_Hand_ThumbUp_Right.uasset"
+[2024.01.31-12.01.05:527][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_01ID_BN.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_01ID_BN.uasset"
+[2024.01.31-12.01.05:536][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_01ID_D.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_01ID_D.uasset"
+[2024.01.31-12.01.05:544][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_01_ASAOPMASK_MSK.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_01_ASAOPMASK_MSK.uasset"
+[2024.01.31-12.01.05:565][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_01_BN.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_01_BN.uasset"
+[2024.01.31-12.01.05:579][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK.uasset"
+[2024.01.31-12.01.05:588][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_01_D.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_01_D.uasset"
+[2024.01.31-12.01.05:604][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_01ID_MSR_MSK.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_01ID_MSR_MSK.uasset"
+[2024.01.31-12.01.05:618][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_01_MSR_MSK.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_01_MSR_MSK.uasset"
+[2024.01.31-12.01.05:629][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_01_N.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_01_N.uasset"
+[2024.01.31-12.01.05:638][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_01ID_N.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_01ID_N.uasset"
+[2024.01.31-12.01.05:643][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_01_Tan.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_01_Tan.uasset"
+[2024.01.31-12.01.05:648][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_01ID_Tan.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_01ID_Tan.uasset"
+[2024.01.31-12.01.05:661][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_02_ASAOPMASK_MSK.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_02_ASAOPMASK_MSK.uasset"
+[2024.01.31-12.01.05:671][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_01_ASAOMASK_MSK.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_01_ASAOMASK_MSK.uasset"
+[2024.01.31-12.01.05:702][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_02_BN.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_02_BN.uasset"
+[2024.01.31-12.01.05:734][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_01_CCRCCPlastic_MSK.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_01_CCRCCPlastic_MSK.uasset"
+[2024.01.31-12.01.05:762][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK.uasset"
+[2024.01.31-12.01.05:775][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_02_D.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_02_D.uasset"
+[2024.01.31-12.01.05:797][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_02ID_BN.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_02ID_BN.uasset"
+[2024.01.31-12.01.05:816][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_02_MSR_MSK.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_02_MSR_MSK.uasset"
+[2024.01.31-12.01.05:828][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_02ID_D.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_02ID_D.uasset"
+[2024.01.31-12.01.05:840][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_02_N.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_02_N.uasset"
+[2024.01.31-12.01.05:847][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_02_Tan.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Manny/T_Manny_02_Tan.uasset"
+[2024.01.31-12.01.05:863][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_02ID_MSR_MSK.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_02ID_MSR_MSK.uasset"
+[2024.01.31-12.01.05:874][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_02ID_N.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_02ID_N.uasset"
+[2024.01.31-12.01.05:880][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_02ID_Tan.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_02ID_Tan.uasset"
+[2024.01.31-12.01.05:893][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_02_ASAOMASK_MSK.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_02_ASAOMASK_MSK.uasset"
+[2024.01.31-12.01.05:910][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_02_CCRCCPlastic_MSK.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Quinn/T_Quinn_02_CCRCCPlastic_MSK.uasset"
+[2024.01.31-12.01.05:914][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Textures/Shared/T_UE_Logo_M.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Textures/Shared/T_UE_Logo_M.uasset"
+[2024.01.31-12.01.05:919][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Materials/Instances/Manny/MI_Manny_01.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Materials/Instances/Manny/MI_Manny_01.uasset"
+[2024.01.31-12.01.05:923][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Materials/Instances/Manny/MI_Manny_02.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Materials/Instances/Manny/MI_Manny_02.uasset"
+[2024.01.31-12.01.05:928][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Materials/Instances/Quinn/MI_Quinn_01.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Materials/Instances/Quinn/MI_Quinn_01.uasset"
+[2024.01.31-12.01.05:932][634]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/Characters/MannequinsXR/Materials/Instances/Quinn/MI_Quinn_02.uasset" to "../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/Characters/MannequinsXR/Materials/Instances/Quinn/MI_Quinn_02.uasset"
+[2024.01.31-12.01.05:934][634]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave Fire01...
+[2024.01.31-12.01.05:957][634]LogAudio: Display: Chunk sizes for SoundWave /Game/VRTemplate/Audio/Fire01.Fire01: Chunk0=28 bytes, Chunk1-N=256k
+[2024.01.31-12.01.05:958][634]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave Fire01...
+[2024.01.31-12.01.05:986][634]LogAudio: Display: Chunk sizes for SoundWave /Game/VRTemplate/Audio/Fire01.Fire01: Chunk0=28 bytes, Chunk1-N=256k
+[2024.01.31-12.01.06:027][634]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.31-12.01.06:103][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Audio/Fire01" FILE="../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Audio/Fire01.uasset" SILENT=true
+[2024.01.31-12.01.06:109][634]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.005295 seconds
+[2024.01.31-12.01.06:112][634]LogSavePackage: Moving output files for package: /Game/VRTemplate/Audio/Fire01
+[2024.01.31-12.01.06:113][634]LogSavePackage: Moving '../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Saved/Fire016FB836774AAA1F22FA47729BF816A88C.tmp' to '../../../../../../Users/saeir/Documents/GitHub/Al-Thar/AlThar/Content/VRTemplate/Audio/Fire01.uasset'
+[2024.01.31-12.01.06:124][634]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms
+[2024.01.31-12.01.06:357][634]LogLinker: Warning: [AssetLog] C:\Users\saeir\Documents\GitHub\Al-Thar\AlThar\Content\VRTemplate\Blueprints\WidgetMenu.uasset: VerifyImport: Failed to find script package for import object 'Package /Script/XRBase'
+[2024.01.31-12.01.06:371][634]LogBlueprint: Error: [AssetLog] C:\Users\saeir\Documents\GitHub\Al-Thar\AlThar\Content\VRTemplate\Blueprints\WidgetMenu.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Reset Orientation and Position . Please refresh node or break links to remove pin.
+[2024.01.31-12.01.06:371][634]LogBlueprint: Error: [AssetLog] C:\Users\saeir\Documents\GitHub\Al-Thar\AlThar\Content\VRTemplate\Blueprints\WidgetMenu.uasset: [Compiler] Could not find a function named "ResetOrientationAndPosition" in 'WidgetMenu'.
+Make sure 'WidgetMenu' has been compiled for  Reset Orientation and Position
+[2024.01.31-12.01.06:468][634]LogBlueprint: Error: [AssetLog] C:\Users\saeir\Documents\GitHub\Al-Thar\AlThar\Content\VRTemplate\Blueprints\VRTeleportVisualizer.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Get Play Area Bounds . Please refresh node or break links to remove pin.
+[2024.01.31-12.01.06:468][634]LogBlueprint: Error: [AssetLog] C:\Users\saeir\Documents\GitHub\Al-Thar\AlThar\Content\VRTemplate\Blueprints\VRTeleportVisualizer.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Get Play Area Bounds . Please refresh node or break links to remove pin.
+[2024.01.31-12.01.06:469][634]LogBlueprint: Error: [AssetLog] C:\Users\saeir\Documents\GitHub\Al-Thar\AlThar\Content\VRTemplate\Blueprints\VRTeleportVisualizer.uasset: [Compiler] In use pin  Return Value X  no longer exists on node  Get Play Area Bounds . Please refresh node or break links to remove pin.
+[2024.01.31-12.01.06:469][634]LogBlueprint: Error: [AssetLog] C:\Users\saeir\Documents\GitHub\Al-Thar\AlThar\Content\VRTemplate\Blueprints\VRTeleportVisualizer.uasset: [Compiler] In use pin  Return Value Y  no longer exists on node  Get Play Area Bounds . Please refresh node or break links to remove pin.
+[2024.01.31-12.01.06:469][634]LogBlueprint: Error: [AssetLog] C:\Users\saeir\Documents\GitHub\Al-Thar\AlThar\Content\VRTemplate\Blueprints\VRTeleportVisualizer.uasset: [Compiler] Could not find a function named "GetPlayAreaBounds" in 'VRTeleportVisualizer'.
+Make sure 'VRTeleportVisualizer' has been compiled for  Get Play Area Bounds
+[2024.01.31-12.01.06:515][634]LogLinker: Warning: Unable to load XRDeviceVisualizationLeft_GEN_VARIABLE with outer BlueprintGeneratedClass /Game/VRTemplate/Blueprints/VRPawn.VRPawn_C because its class (XRDeviceVisualizationComponent) does not exist
+[2024.01.31-12.01.06:515][634]LogLinker: Warning: Unable to load XRDeviceVisualizationRight_GEN_VARIABLE with outer BlueprintGeneratedClass /Game/VRTemplate/Blueprints/VRPawn.VRPawn_C because its class (XRDeviceVisualizationComponent) does not exist
+[2024.01.31-12.01.06:516][634]LogBlueprint: Warning: [AssetLog] C:\Users\saeir\Documents\GitHub\Al-Thar\AlThar\Content\VRTemplate\Blueprints\VRPawn.uasset: [Compiler] Component class is not set for 'XRDeviceVisualizationLeft' - this component will not be instanced, and additional warnings or errors may occur when compiling Blueprint 'VRPawn'.
+[2024.01.31-12.01.06:517][634]LogBlueprint: Warning: [AssetLog] C:\Users\saeir\Documents\GitHub\Al-Thar\AlThar\Content\VRTemplate\Blueprints\VRPawn.uasset: [Compiler] Component class is not set for 'XRDeviceVisualizationRight' - this component will not be instanced, and additional warnings or errors may occur when compiling Blueprint 'VRPawn'.
+[2024.01.31-12.01.06:542][634]LogBlueprint: Error: [AssetLog] C:\Users\saeir\Documents\GitHub\Al-Thar\AlThar\Content\VRTemplate\Blueprints\VRPawn.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Set Tracking Origin . Please refresh node or break links to remove pin.
+[2024.01.31-12.01.06:542][634]LogBlueprint: Error: [AssetLog] C:\Users\saeir\Documents\GitHub\Al-Thar\AlThar\Content\VRTemplate\Blueprints\VRPawn.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Set Tracking Origin . Please refresh node or break links to remove pin.
+[2024.01.31-12.01.06:542][634]LogBlueprint: Warning: [AssetLog] C:\Users\saeir\Documents\GitHub\Al-Thar\AlThar\Content\VRTemplate\Blueprints\VRPawn.uasset: [Compiler] Input pin  Origin  specifying non-default value no longer exists on node  Set Tracking Origin . Please refresh node or reset pin to default value to remove pin.
+[2024.01.31-12.01.06:542][634]LogBlueprint: Error: [AssetLog] C:\Users\saeir\Documents\GitHub\Al-Thar\AlThar\Content\VRTemplate\Blueprints\VRPawn.uasset: [Compiler] Could not find a function named "SetTrackingOrigin" in 'VRPawn'.
+Make sure 'VRPawn' has been compiled for  Set Tracking Origin
+[2024.01.31-12.01.06:542][634]LogBlueprint: Error: [AssetLog] C:\Users\saeir\Documents\GitHub\Al-Thar\AlThar\Content\VRTemplate\Blueprints\VRPawn.uasset: [Compiler] In use pin  Return Value  no longer exists on node  Is Head Mounted Display Enabled . Please refresh node or break links to remove pin.
+[2024.01.31-12.01.06:542][634]LogBlueprint: Error: [AssetLog] C:\Users\saeir\Documents\GitHub\Al-Thar\AlThar\Content\VRTemplate\Blueprints\VRPawn.uasset: [Compiler] Could not find a function named "IsHeadMountedDisplayEnabled" in 'VRPawn'.
+Make sure 'VRPawn' has been compiled for  Is Head Mounted Display Enabled
+[2024.01.31-12.01.06:729][634]LogTexture: Display: Building textures: /Game/Characters/MannequinsXR/Materials/Functions/CA_Mannequin.CA_Mannequin (RGBA16F, 64x64 x1x1x1) (Required Memory Estimate: 0.218742 MB), EncodeSpeed: Fast
+[2024.01.31-12.01.06:746][634]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2024.01.31-12.01.07:202][634]AssetCheck: New page: Asset Save: Fire01
+[2024.01.31-12.01.07:202][634]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/VRTemplate/Audio/Fire01.Fire01
+[2024.01.31-12.01.07:296][635]LogAutomationController: Ignoring very large delta of 2.51 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.01.31-12.01.15:769][104]LogSlate: Window 'Add Content to the Project' being destroyed
+[2024.01.31-12.01.17:595][213]Cmd: CLOSE_SLATE_MAINFRAME
+[2024.01.31-12.01.17:611][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.01.31-12.01.17:612][213]LogStall: Shutdown...
+[2024.01.31-12.01.17:619][213]LogStall: Shutdown complete.
+[2024.01.31-12.01.17:646][213]LogSlate: Window 'Content Browser' being destroyed
+[2024.01.31-12.01.17:658][213]LogSlate: Window 'AlThar - Unreal Editor' being destroyed
+[2024.01.31-12.01.17:921][214]Cmd: QUIT_EDITOR
+[2024.01.31-12.01.17:921][214]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.01.31-12.01.17:945][214]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.01.31-12.01.17:945][214]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.01.31-12.01.17:945][214]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.01.31-12.01.17:970][214]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2024.01.31-12.01.17:970][214]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.31-12.01.17:972][214]LogContentBundle: [Untitled_1(Standalone)] Deleting container.
+[2024.01.31-12.01.17:977][214]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.01.31-12.01.18:171][214]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.01.31-12.01.18:171][214]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.01.31-12.01.18:171][214]LogAudio: Display: Audio Device unregistered from world 'Untitled_1'.
+[2024.01.31-12.01.18:171][214]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2024.01.31-12.01.18:171][214]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.01.31-12.01.18:173][214]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.01.31-12.01.18:220][214]LogAudio: Display: Audio Device Manager Shutdown
+[2024.01.31-12.01.18:221][214]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.01.31-12.01.18:226][214]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.01.31-12.01.18:226][214]LogExit: Preparing to exit.
+[2024.01.31-12.01.18:255][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.01.31-12.01.19:586][214]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.01.31-12.01.19:596][214]LogExit: Editor shut down
+[2024.01.31-12.01.19:598][214]LogExit: Transaction tracking system shut down
+[2024.01.31-12.01.19:669][214]LogExit: Object subsystem successfully closed.
+[2024.01.31-12.01.19:676][214]LogShaderCompilers: Display: ================================================
+[2024.01.31-12.01.19:676][214]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.31-12.01.19:676][214]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2024.01.31-12.01.19:676][214]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2024.01.31-12.01.19:676][214]LogShaderCompilers: Display: RAM used: 240.00 B of 819.20 MiB budget. Usage: 0.00%
+[2024.01.31-12.01.19:676][214]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.31-12.01.19:676][214]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.01.31-12.01.19:676][214]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.01.31-12.01.19:676][214]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.01.31-12.01.19:676][214]LogShaderCompilers: Display: ================================================
+[2024.01.31-12.01.19:767][214]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.01.31-12.01.19:782][214]LogVirtualization: UE::Virtualization was shutdown
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (1050)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module SubobjectEditor (1048)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module SceneOutliner (1046)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module StatusBar (1044)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (1042)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module AddContentDialog (1040)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module WidgetCarousel (1039)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (1036)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module DataLayerEditor (1034)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module StatsViewer (1032)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (1030)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module AutomationWorker (1028)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module RigVMEditor (1026)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module TextureAlignMode (1024)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module BspMode (1022)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module GeometryMode (1020)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module EngineAssetDefinitions (1018)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module SmartSnapping (1016)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module WaveTableEditor (1014)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (1012)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module GooglePADEditor (1010)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (1008)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (1006)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (1004)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (1002)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module WebMMedia (1000)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (998)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (996)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (994)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (992)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module SequenceRecorder (991)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (988)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (986)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (984)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (982)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (980)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (978)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (976)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (974)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (972)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (970)
+[2024.01.31-12.01.19:810][214]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (968)
+[2024.01.31-12.01.19:811][214]LogModuleManager: Shutting down and abandoning module IKRigEditor (966)
+[2024.01.31-12.01.19:811][214]LogModuleManager: Shutting down and abandoning module ControlRigEditor (964)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module PlanarCut (962)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module FractureEngine (960)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module CharacterAI (958)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module SessionServices (956)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module MeshPaint (954)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (952)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module PlacementMode (951)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module FoliageEdit (948)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module LandscapeEditor (946)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (944)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module ActorPickerMode (942)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module ViewportSnapping (940)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module EditorWidgets (938)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module ViewportInteraction (936)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module ClothPainter (934)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (933)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module WidgetRegistration (930)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module LogVisualizer (928)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (926)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (924)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (923)
+[2024.01.31-12.01.19:813][214]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (921)
+[2024.01.31-12.01.20:477][214]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (918)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module MacPlatformEditor (916)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (914)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (912)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module RenderResourceViewer (910)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module GameplayDebuggerEditor (908)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module AnimationSettings (906)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (904)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module CSVtoSVG (902)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (900)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module EditorConfig (898)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module EditorFramework (896)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (894)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module TraceInsights (892)
+[2024.01.31-12.01.20:478][214]MemoryProfiler: Shutdown
+[2024.01.31-12.01.20:478][214]NetworkingProfiler: Shutdown
+[2024.01.31-12.01.20:478][214]LoadingProfiler: Shutdown
+[2024.01.31-12.01.20:478][214]TimingProfiler: Shutdown
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module TraceServices (891)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module TraceAnalysis (890)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (886)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (885)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module InputBindingEditor (882)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module MergeActors (880)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (878)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module LocalizationService (877)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module HardwareTargeting (874)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (872)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module UndoHistory (870)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module XmlParser (868)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module Blutility (866)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (864)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (863)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (860)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (859)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module SettingsEditor (856)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module ProjectLauncher (854)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module SessionFrontend (852)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module ProfilerClient (850)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module DeviceManager (848)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module AutomationController (846)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module AutomationWindow (844)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module Layers (842)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (840)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module DetailCustomizations (838)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module PackagesDialog (836)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (834)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module Persona (832)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (831)
+[2024.01.31-12.01.20:478][214]LogModuleManager: Shutting down and abandoning module Kismet (828)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module KismetWidgets (827)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module GraphEditor (824)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module StructViewer (822)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module ClassViewer (820)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (818)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module SourceControlWindowExtender (816)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module SourceControlWindows (814)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module OutputLog (812)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module Documentation (810)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module SparseVolumeTexture (808)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (806)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module MovieScene (804)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (802)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (800)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (798)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module AudioMixer (797)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module AudioMixerCore (796)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module LauncherPlatform (792)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module AnalyticsET (790)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module PortalServices (788)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module PortalRpc (786)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module MessagingRpc (784)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module AIModule (782)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module GameplayDebugger (781)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module AITestSuite (779)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module NavigationSystem (777)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (774)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (772)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module TypedElementFramework (770)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (768)
+[2024.01.31-12.01.20:480][214]LogModuleManager: Shutting down and abandoning module ProfilerService (766)
+[2024.01.31-12.01.20:611][214]LogModuleManager: Shutting down and abandoning module ProfileVisualizer (764)
+[2024.01.31-12.01.20:611][214]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (762)
+[2024.01.31-12.01.20:611][214]LogModuleManager: Shutting down and abandoning module CacheTrackRecorder (760)
+[2024.01.31-12.01.20:611][214]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (758)
+[2024.01.31-12.01.20:611][214]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (756)
+[2024.01.31-12.01.20:611][214]LogModuleManager: Shutting down and abandoning module TakesCore (754)
+[2024.01.31-12.01.20:611][214]LogModuleManager: Shutting down and abandoning module MegascansPlugin (752)
+[2024.01.31-12.01.20:611][214]LogModuleManager: Shutting down and abandoning module Bridge (750)
+[2024.01.31-12.01.20:611][214]LogModuleManager: Shutting down and abandoning module LightMixer (748)
+[2024.01.31-12.01.20:611][214]LogModuleManager: Shutting down and abandoning module ObjectMixerEditor (746)
+[2024.01.31-12.01.20:611][214]LogModuleManager: Shutting down and abandoning module PortableObjectFileDataSource (744)
+[2024.01.31-12.01.20:611][214]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (742)
+[2024.01.31-12.01.20:611][214]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (740)
+[2024.01.31-12.01.20:611][214]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (738)
+[2024.01.31-12.01.20:611][214]LogModuleManager: Shutting down and abandoning module CollectionManager (737)
+[2024.01.31-12.01.20:612][214]LogModuleManager: Shutting down and abandoning module InterchangeTestEditor (734)
+[2024.01.31-12.01.20:612][214]LogModuleManager: Shutting down and abandoning module InterchangeTests (732)
+[2024.01.31-12.01.20:612][214]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (730)
+[2024.01.31-12.01.20:612][214]LogModuleManager: Shutting down and abandoning module UVEditorToolsEditorOnly (728)
+[2024.01.31-12.01.20:612][214]LogModuleManager: Shutting down and abandoning module UVEditorTools (726)
+[2024.01.31-12.01.20:612][214]LogModuleManager: Shutting down and abandoning module UVEditor (724)
+[2024.01.31-12.01.20:612][214]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (722)
+[2024.01.31-12.01.20:612][214]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (720)
+[2024.01.31-12.01.20:612][214]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (718)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module PluginBrowser (716)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (714)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (712)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (710)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module EditorDebugTools (708)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module CurveEditorTools (706)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (704)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module CryptoKeys (702)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module ChangelistReview (700)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module BlueprintHeaderView (698)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (696)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (694)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module Paper2DEditor (692)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (690)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (688)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module UObjectPlugin (686)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (684)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (682)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module PluginUtils (680)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module DumpGPUServices (678)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module N10XSourceCodeAccess (676)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module GitSourceControl (674)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (672)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (670)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module SynthesisEditor (668)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module ResonanceAudio (666)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (664)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module DynamicMesh (662)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (660)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (658)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (656)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module ModelingOperators (654)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (652)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module ModelingComponents (650)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module GeometryFramework (649)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (646)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module MeshModelingTools (644)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module InputDebuggingEditor (642)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module InputDebugging (640)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module GooglePAD (638)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (636)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (634)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (632)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module AudioCapture (630)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module AudioCaptureWasapi (629)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module AssetTags (626)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (624)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module AppleImageUtils (622)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (620)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module AndroidPermission (618)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (616)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (614)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module AlembicImporter (612)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module AlembicLibrary (611)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module GeometryCache (610)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (609)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (604)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module MediaPlateEditor (602)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module MediaPlate (600)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module MediaCompositing (598)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module ImgMedia (596)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module TemplateSequence (594)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (592)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module SequencerScripting (590)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (588)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module VariantManager (584)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (583)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (580)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module ControlRigSpline (578)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (576)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (574)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module ACLPluginEditor (572)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module ToolPresetEditor (570)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module ToolPresetAsset (568)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module StructUtilsTestSuite (566)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module StructUtilsNodes (564)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module StructUtilsEditor (562)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module StructUtilsEngine (560)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (558)
+[2024.01.31-12.01.20:613][214]LogOpenImageDenoise: OIDN shutting down
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module SkeletalMeshModifiers (556)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (554)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (552)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (550)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (548)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module LocalizableMessageBlueprint (546)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module LocalizableMessage (544)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module MeshLODToolset (542)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module GeometryCollectionNodes (540)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (538)
+[2024.01.31-12.01.20:613][214]LogModuleManager: Shutting down and abandoning module GeometryCollectionEngine (537)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (535)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (532)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (530)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (528)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (526)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module DataflowNodes (524)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module DataflowEnginePlugin (522)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module DataflowEditor (520)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (518)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (516)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module ChaosNiagara (514)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module FractureEditor (512)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (510)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module BackChannel (508)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (506)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module AutomationUtils (504)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module TakeSequencer (502)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module TakeMovieScene (500)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module InterchangeEditorUtilities (498)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (496)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module InterchangeEditor (494)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (492)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module InterchangeCommonParser (490)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (488)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module InterchangeExport (486)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module InterchangeMessages (484)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module GLTFCore (482)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module EditorTraceUtilities (480)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module TraceUtilities (478)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (476)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (474)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module InputEditor (472)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module RigVMDeveloper (470)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module RigVM (468)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (466)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (464)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module FacialAnimation (462)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module DataValidation (460)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (458)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (456)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module TreeMap (455)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module Paper2D (452)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (450)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module AnimationSharing (448)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module Synthesis (446)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module SoundFields (444)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module SignificanceManager (442)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (440)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (438)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module MsQuicRuntime (436)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module MetasoundEditor (434)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module AudioWidgets (433)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module AdvancedWidgets (432)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module MetasoundEngineTest (428)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module MetasoundEngine (426)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module WaveTable (425)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module AudioCodecEngine (423)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module MetasoundStandardNodes (420)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module MetasoundFrontend (418)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module MetasoundGenerator (416)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module MetasoundGraphCore (414)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (412)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (410)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (409)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (406)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (404)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module CableComponent (402)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (400)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module GameplayCameras (398)
+[2024.01.31-12.01.20:614][214]LogModuleManager: Shutting down and abandoning module ActorSequence (396)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (394)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module Niagara (392)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module SignalProcessing (391)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module NiagaraEditor (389)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module ContentBrowser (388)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module ToolMenus (387)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module ContentBrowserData (385)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module NiagaraCore (380)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (378)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module IKRig (376)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (374)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module ControlRig (372)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module Constraints (371)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module AnimationData (368)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module StructUtils (366)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (364)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module PBIK (362)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module FullBodyIK (360)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module ChaosCachingEditor (358)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module TakeRecorder (357)
+[2024.01.31-12.01.20:615][214]LogModuleManager: Shutting down and abandoning module LevelEditor (355)
+[2024.01.31-12.01.20:618][214]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (354)
+[2024.01.31-12.01.20:618][214]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (352)
+[2024.01.31-12.01.20:618][214]LogModuleManager: Shutting down and abandoning module MainFrame (350)
+[2024.01.31-12.01.20:618][214]LogModuleManager: Shutting down and abandoning module HotReload (349)
+[2024.01.31-12.01.20:619][214]LogModuleManager: Shutting down and abandoning module ChaosCaching (344)
+[2024.01.31-12.01.20:619][214]LogModuleManager: Shutting down and abandoning module LevelSequence (343)
+[2024.01.31-12.01.20:619][214]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (340)
+[2024.01.31-12.01.20:619][214]LogModuleManager: Shutting down and abandoning module UdpMessaging (338)
+[2024.01.31-12.01.20:720][214]LogModuleManager: Shutting down and abandoning module TcpMessaging (336)
+[2024.01.31-12.01.20:821][214]LogModuleManager: Shutting down and abandoning module InterchangePipelines (334)
+[2024.01.31-12.01.20:821][214]LogModuleManager: Shutting down and abandoning module InterchangeImport (332)
+[2024.01.31-12.01.20:821][214]LogModuleManager: Shutting down and abandoning module InterchangeFactoryNodes (330)
+[2024.01.31-12.01.20:821][214]LogModuleManager: Shutting down and abandoning module InterchangeNodes (328)
+[2024.01.31-12.01.20:821][214]LogModuleManager: Shutting down and abandoning module InputBlueprintNodes (326)
+[2024.01.31-12.01.20:821][214]LogModuleManager: Shutting down and abandoning module BlueprintGraph (325)
+[2024.01.31-12.01.20:821][214]LogModuleManager: Shutting down and abandoning module EnhancedInput (322)
+[2024.01.31-12.01.20:821][214]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (320)
+[2024.01.31-12.01.20:821][214]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (318)
+[2024.01.31-12.01.20:821][214]LogModuleManager: Shutting down and abandoning module AndroidFileServer (316)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (314)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module PacketHandler (312)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (310)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module AnimGraph (308)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module TimeManagement (306)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module AnimationDataController (304)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (302)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (300)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module MediaAssets (298)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module Overlay (296)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module OverlayEditor (295)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module VREditor (292)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module StringTableEditor (290)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (288)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (286)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module FunctionalTesting (284)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (282)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (281)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module ScriptableEditorWidgets (278)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module UMG (276)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module UMGEditor (275)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module EditorStyle (270)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module SlateReflector (268)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module Slate (266)
+[2024.01.31-12.01.20:822][214]LogModuleManager: Shutting down and abandoning module SlateCore (264)
+[2024.01.31-12.01.20:823][214]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (262)
+[2024.01.31-12.01.20:823][214]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (260)
+[2024.01.31-12.01.20:823][214]LogModuleManager: Shutting down and abandoning module UnrealEd (258)
+[2024.01.31-12.01.20:823][214]LogModuleManager: Shutting down and abandoning module MRMesh (256)
+[2024.01.31-12.01.20:823][214]LogModuleManager: Shutting down and abandoning module Messaging (254)
+[2024.01.31-12.01.20:823][214]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (252)
+[2024.01.31-12.01.20:823][214]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (250)
+[2024.01.31-12.01.20:823][214]LogModuleManager: Shutting down and abandoning module LiveCoding (248)
+[2024.01.31-12.01.20:833][214]LogModuleManager: Shutting down and abandoning module Networking (246)
+[2024.01.31-12.01.20:833][214]LogModuleManager: Shutting down and abandoning module Core (244)
+[2024.01.31-12.01.20:833][214]LogModuleManager: Shutting down and abandoning module AssetDefinition (242)
+[2024.01.31-12.01.20:834][214]LogModuleManager: Shutting down and abandoning module MovieSceneTools (240)
+[2024.01.31-12.01.20:834][214]LogModuleManager: Shutting down and abandoning module CurveEditor (239)
+[2024.01.31-12.01.20:834][214]LogModuleManager: Shutting down and abandoning module Sequencer (237)
+[2024.01.31-12.01.20:834][214]LogModuleManager: Shutting down and abandoning module KismetCompiler (234)
+[2024.01.31-12.01.20:834][214]LogModuleManager: Shutting down and abandoning module MeshBuilder (232)
+[2024.01.31-12.01.20:834][214]LogModuleManager: Shutting down and abandoning module NaniteBuilder (230)
+[2024.01.31-12.01.20:834][214]LogModuleManager: Shutting down and abandoning module MeshUtilities (228)
+[2024.01.31-12.01.20:834][214]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (227)
+[2024.01.31-12.01.20:834][214]LogModuleManager: Shutting down and abandoning module StaticMeshDescription (226)
+[2024.01.31-12.01.20:834][214]LogModuleManager: Shutting down and abandoning module GeometryProcessingInterfaces (225)
+[2024.01.31-12.01.20:834][214]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (222)
+[2024.01.31-12.01.20:834][214]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (221)
+[2024.01.31-12.01.20:834][214]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (219)
+[2024.01.31-12.01.20:834][214]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (217)
+[2024.01.31-12.01.20:834][214]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (215)
+[2024.01.31-12.01.20:834][214]LogModuleManager: Shutting down and abandoning module MaterialBaking (211)
+[2024.01.31-12.01.20:834][214]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (208)
+[2024.01.31-12.01.20:845][214]LogModuleManager: Shutting down and abandoning module TelemetryUtils (205)
+[2024.01.31-12.01.20:845][214]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (202)
+[2024.01.31-12.01.20:845][214]LogModuleManager: Shutting down and abandoning module ShaderPreprocessor (200)
+[2024.01.31-12.01.20:845][214]LogModuleManager: Shutting down and abandoning module DerivedDataCache (198)
+[2024.01.31-12.01.20:848][214]LogModuleManager: Shutting down and abandoning module TargetPlatform (196)
+[2024.01.31-12.01.20:848][214]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (195)
+[2024.01.31-12.01.20:848][214]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (193)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (191)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (189)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (187)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module AudioFormatBINK (185)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (183)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (181)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (179)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (177)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (175)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (173)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (171)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (169)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (167)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (165)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module TextureFormat (163)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module ImageWrapper (162)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (160)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (158)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (156)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (154)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (152)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (150)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module TurnkeySupport (147)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module InputCore (144)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module Settings (142)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (140)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (138)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (137)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module Chaos (134)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module GeometryCore (133)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (130)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (129)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module AVEncoder (128)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module D3D12RHI (124)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module RenderDocPlugin (122)
+[2024.01.31-12.01.20:849][214]RenderDocPlugin: plugin has been unloaded.
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module PixWinPlugin (120)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (118)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (116)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module ChunkDownloader (114)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (112)
+[2024.01.31-12.01.20:849][214]LogModuleManager: Shutting down and abandoning module WmfMedia (110)
+[2024.01.31-12.01.20:853][214]LogModuleManager: Shutting down and abandoning module Media (109)
+[2024.01.31-12.01.20:855][214]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (106)
+[2024.01.31-12.01.20:855][214]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (104)
+[2024.01.31-12.01.20:855][214]LogModuleManager: Shutting down and abandoning module NiagaraShader (102)
+[2024.01.31-12.01.20:855][214]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (100)
+[2024.01.31-12.01.20:855][214]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (98)
+[2024.01.31-12.01.20:855][214]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (96)
+[2024.01.31-12.01.20:858][214]LogModuleManager: Shutting down and abandoning module XMPP (91)
+[2024.01.31-12.01.20:858][214]LogModuleManager: Shutting down and abandoning module WebSockets (90)
+[2024.01.31-12.01.20:862][214]LogModuleManager: Shutting down and abandoning module HTTP (87)
+[2024.01.31-12.01.20:862][214]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2024.01.31-12.01.20:862][214]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB3F13867-4FFD-1855-71AA-6495C06E7412%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=804bbe2f4d612cfbc86c6b973b3b30e3%7C2261df0edd5241cfb5735431b993d6a1%7C4577786a-bd69-40aa-b911-f808aba8bd90&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2024.01.31-12.01.20:894][214]LogModuleManager: Shutting down and abandoning module SSL (86)
+[2024.01.31-12.01.20:895][214]LogModuleManager: Shutting down and abandoning module OnlineServicesCommonEngineUtils (82)
+[2024.01.31-12.01.20:895][214]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (80)
+[2024.01.31-12.01.20:895][214]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (78)
+[2024.01.31-12.01.20:895][214]LogModuleManager: Shutting down and abandoning module AISupportModule (76)
+[2024.01.31-12.01.20:895][214]LogModuleManager: Shutting down and abandoning module VariantManagerContent (74)
+[2024.01.31-12.01.20:895][214]LogModuleManager: Shutting down and abandoning module GLTFExporter (72)
+[2024.01.31-12.01.20:895][214]LogModuleManager: Shutting down and abandoning module DatasmithContent (70)
+[2024.01.31-12.01.20:895][214]LogModuleManager: Shutting down and abandoning module ACLPlugin (68)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module ChaosCloth (66)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module DesktopPlatform (64)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (62)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (60)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module SourceControl (59)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (56)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (54)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (52)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module PlatformCrypto (50)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module XGEController (48)
+[2024.01.31-12.01.20:896][214]LogXGEController: Cleaning working directory: C:/Users/saeir/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module FastBuildController (46)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module IoStoreOnDemand (44)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module AnimationModifiers (42)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module AudioEditor (40)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module PropertyEditor (39)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module Virtualization (36)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module MessageLog (35)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module OpenColorIOWrapper (31)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2024.01.31-12.01.20:896][214]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2024.01.31-12.01.20:897][214]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+[2024.01.31-12.01.20:897][214]LogModuleManager: Shutting down and abandoning module Renderer (20)
+[2024.01.31-12.01.20:897][214]LogModuleManager: Shutting down and abandoning module Engine (18)
+[2024.01.31-12.01.20:897][214]LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+[2024.01.31-12.01.20:897][214]LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+[2024.01.31-12.01.20:897][214]LogModuleManager: Shutting down and abandoning module PakFile (12)
+[2024.01.31-12.01.20:897][214]LogPakFile: Destroying PakPlatformFile
+[2024.01.31-12.01.20:897][214]LogModuleManager: Shutting down and abandoning module RSA (11)
+[2024.01.31-12.01.20:897][214]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2024.01.31-12.01.20:897][214]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2024.01.31-12.01.20:897][214]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+[2024.01.31-12.01.20:897][214]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2024.01.31-12.01.21:053][214]LogD3D12RHI: ~FD3D12DynamicRHI
+[2024.01.31-12.01.21:091][214]LogExit: Exiting.
+[2024.01.31-12.01.21:391][214]Log file closed, 01/31/24 20:01:21
