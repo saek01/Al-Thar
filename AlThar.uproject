@@ -41,6 +41,17 @@
 		{
 			"Name": "MultiUserClient",
 			"Enabled": true
+		},
+		{
+			"Name": "SimpleHMD",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Android",
+				"Mac",
+				"IOS"
+			]
 		}
 	]
 }
