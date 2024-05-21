@@ -72,6 +72,14 @@
 		{
 			"Name": "AlembicHairImporter",
 			"Enabled": true
+		},
+		{
+			"Name": "NiagaraFluids",
+			"Enabled": true
+		},
+		{
+			"Name": "NiagaraSimCaching",
+			"Enabled": true
 		}
 	]
 }
